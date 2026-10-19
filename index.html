@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> AR CAFE | Artisan Coffee & Bakery</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">
+        <span class="logo-icon"><i class="fa-solid fa-mug-hot"></i></span>
+        <span class="logo-text">AR cafe</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#book">Book Table</a>
+      </nav>
+
+      <a href="#book" class="btn btn-outline nav-cta">Find a Table</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-tagline">Roasted Fresh Every Morning</span>
+      <h1>Where Every Sip Feels Like Home</h1>
+      <p>Artisanal slow-dripped coffee, fresh sourdough pastries, and a peaceful atmosphere designed for deep conversations.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">Explore Menu</a>
+        <a href="#book" class="btn btn-secondary">Reserve Table</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Strip -->
+  <section class="features-bar">
+    <div class="feature-item">
+      <i class="fa-solid fa-seedling"></i>
+      <div>
+        <h4>100% Arabica Beans</h4>
+        <p>Ethically single-origin sourced</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <i class="fa-solid fa-bread-slice"></i>
+      <div>
+        <h4>Fresh Bakery Daily</h4>
+        <p>Baked in-house at 5:00 AM</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <i class="fa-solid fa-wifi"></i>
+      <div>
+        <h4>Cozy Work Haven</h4>
+        <p>High-speed Wi-Fi & quiet corners</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container about-grid">
+      <div class="about-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80" alt="Cafe interior" class="about-img main-img">
+        <div class="experience-badge">
+          <span class="exp-number">12+</span>
+          <span class="exp-text">Years of Brewing</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="section-subtitle">OUR PHILOSOPHY</span>
+        <h2>Crafted With Patience, Served With Love</h2>
+        <p>Started in 2023 as a humble coffee cart, AR Cafe was born out of a deep reverence for the ritual of morning brew. We roast beans in small batches right here in our glass roastery.</p>
+        <p>Whether you need a quiet nook to read, a workstation for remote hours, or a sunny spot for brunch with friends, our cafe is your third space.</p>
+        <div class="about-quote">
+          <p>"Good coffee isn't rushed; it's coaxed from the bean with care and patience."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">HANDCRAFTED DELIGHTS</span>
+        <h2>Our Popular Specialties</h2>
+        <p>Every beverage is prepared by award-winning baristas with organic oat, almond, or farm dairy.</p>
+      </div>
+
+      <div class="menu-grid">
+        <!-- Item 1 -->
+        <div class="menu-card">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80" alt="Artisan Cappuccino">
+            <span class="card-tag">Bestseller</span>
+          </div>
+          <div class="card-body">
+            <div class="card-title-row">
+              <h3>Signature Cappuccino</h3>
+              <span class="price">₹220</span>
+            </div>
+            <p>Velvety microfoam over a double pull of Ethiopian medium roast espresso with cinnamon dust.</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="menu-card">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=80" alt="Vanilla Nitro Cold Brew">
+          </div>
+          <div class="card-body">
+            <div class="card-title-row">
+              <h3>Vanilla Nitro Brew</h3>
+              <span class="price">₹260</span>
+            </div>
+            <p>18-hour cold steeped single-origin coffee infused with nitrogen and Madagascar vanilla bean.</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="menu-card">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80" alt="Butter Croissant">
+            <span class="card-tag">Freshly Baked</span>
+          </div>
+          <div class="card-body">
+            <div class="card-title-row">
+              <h3>French Butter Croissant</h3>
+              <span class="price">₹180</span>
+            </div>
+            <p>Flaky, 72-layered pure French butter pastry baked golden brown every morning.</p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="menu-card">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=600&q=80" alt="Iced Matcha Latte">
+          </div>
+          <div class="card-body">
+            <div class="card-title-row">
+              <h3>Ceremonial Matcha Latte</h3>
+              <span class="price">₹280</span>
+            </div>
+            <p>Stone-ground Uji green tea whisked fresh, layered with chilled coconut cream.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation Section -->
+  <section id="book" class="booking-section">
+    <div class="container booking-wrapper">
+      <div class="booking-info">
+        <span class="section-subtitle">PLAN YOUR VISIT</span>
+        <h2>Reserve A Corner</h2>
+        <p>Holding a meet, working on a project, or planning a weekend date? Book ahead and we will keep your preferred seating ready.</p>
+        
+        <div class="cafe-info-list">
+          <div class="info-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <strong>Location:</strong>
+              <p>42 Green Park Lane, Lane 6, Koregaon Park</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <strong>Hours:</strong>
+              <p>Mon - Sun: 7:30 AM – 11:00 PM</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <strong>Call Us:</strong>
+              <p>+91 98765 43210</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="booking-form-card">
+        <h3>Book A Table</h3>
+        <form onsubmit="event.preventDefault(); alert('Table booked successfully! See you soon at AR Cafe.');">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Rahul Sharma" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Date</label>
+              <input type="date" id="date" required>
+            </div>
+            <div class="form-group">
+              <label for="time">Time</label>
+              <input type="time" id="time" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="guests">Guests</label>
+            <select id="guests">
+              <option value="1">1 Person (Quiet corner)</option>
+              <option value="2" selected>2 Persons (Standard table)</option>
+              <option value="4">3 - 4 Persons</option>
+              <option value="party">5+ Persons (Lounge)</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary submit-btn">Confirm Reservation</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#" class="brand-logo footer-logo">
+          <i class="fa-solid fa-mug-hot"></i> AR cafe
+        </a>
+        <p>Crafting memories, one warm cup at a time.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#book">Bookings</a>
+      </div>
+      <div class="footer-socials">
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 AR cafe. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
